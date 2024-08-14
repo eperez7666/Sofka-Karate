@@ -1,0 +1,546 @@
+09:04:09.465 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:04:09.473 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1723644249471
+09:04:12.201 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:04:12.291 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:04:12.307 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:04:12.322 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:04:15.335 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:15.335 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:15.335 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:15.335 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:16.490 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:16.490 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:16.490 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:16.490 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1151
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:04:16.502 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+2 > POST https://petstore.swagger.io/v2/pet
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 41
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+{"id":433,"name":"Bilbo","status":"sold"}
+
+09:04:16.507 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+2 > POST https://petstore.swagger.io/v2/pet
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 41
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+{"id":433,"name":"Bilbo","status":"sold"}
+
+09:04:16.529 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://petstore.swagger.io/v2/pet/123
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+
+
+09:04:16.757 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 254
+2 < 200
+2 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":433,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"}
+
+09:04:16.757 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 250
+2 < 200
+2 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":433,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"}
+
+09:04:16.766 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+3 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+3 > Host: petstore.swagger.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+3 > Accept-Encoding: gzip,deflate
+
+
+09:04:16.788 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 256
+2 < 404
+2 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"code":1,"type":"error","message":"Pet not found"}
+
+09:04:16.791 [pool-2-thread-2] ERROR com.intuit.karate - classpath:pet/generalTestCase.feature:24
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 256, url: https://petstore.swagger.io/v2/pet/123, response: 
+{"code":1,"type":"error","message":"Pet not found"}
+classpath:pet/generalTestCase.feature:24
+09:04:17.008 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 241
+3 < 200
+3 < Date: Wed, 14 Aug 2024 14:04:17 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+3 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+3 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372036854761580,"category":{"id":0,"name":"cat"},"name":"Kuzia","photoUrls":[],"tags":[],"status":"sold"},{"id":778,"category":{"id":1,"name":"Cold"},"name":"Singing Cat","photoUrls":["https://pbs.twimg.com/profile_images/948294484596375552/RyGNqDEM_400x400.jpg"],"tags":[{"id":600,"name":"Synapse"}],"status":"sold"},{"id":275,"category":{"id":8,"name":"Ежи changed"},"name":"Курва changed","photoUrls":["https://some-url.com/changed"],"tags":[{"id":3,"name":"Колючие changed"}],"status":"sold"},{"id":433,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"},{"id":9223372036854761993,"photoUrls":[],"tags":[],"status":"sold"},{"id":9223372036854762309,"photoUrls":[],"tags":[],"status":"sold"}]
+
+09:04:18.466 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:pet/generalTestCase.feature
+09:08:29.002 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:08:29.010 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1723644509008
+09:08:31.202 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:08:31.264 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:08:31.278 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:08:31.293 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:08:33.554 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:08:33.554 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:08:33.554 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:08:33.554 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:08:34.159 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 602
+1 < 404
+1 < Date: Wed, 14 Aug 2024 14:08:35 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+1 < X-Frame-Options: DENY
+1 < Content-Security-Policy: frame-ancestors 'none'
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+09:08:34.159 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 603
+1 < 404
+1 < Date: Wed, 14 Aug 2024 14:08:35 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+1 < X-Frame-Options: DENY
+1 < Content-Security-Policy: frame-ancestors 'none'
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+09:08:34.159 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 603
+1 < 404
+1 < Date: Wed, 14 Aug 2024 14:08:35 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+1 < X-Frame-Options: DENY
+1 < Content-Security-Policy: frame-ancestors 'none'
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+09:08:34.159 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 602
+1 < 404
+1 < Date: Wed, 14 Aug 2024 14:08:35 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Vary: Accept-Encoding
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+1 < X-Frame-Options: DENY
+1 < Content-Security-Policy: frame-ancestors 'none'
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+09:08:34.163 [pool-2-thread-4] ERROR com.intuit.karate - classpath:pet/generalTestCase.feature:47
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 603, url: https://petstore.swagger.io/pet, response: 
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+classpath:pet/generalTestCase.feature:47
+09:08:34.163 [pool-2-thread-3] ERROR com.intuit.karate - classpath:pet/generalTestCase.feature:33
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 603, url: https://petstore.swagger.io/pet, response: 
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+classpath:pet/generalTestCase.feature:33
+09:08:34.163 [pool-2-thread-1] ERROR com.intuit.karate - classpath:pet/generalTestCase.feature:12
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 602, url: https://petstore.swagger.io/pet, response: 
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+classpath:pet/generalTestCase.feature:12
+09:08:34.163 [pool-2-thread-2] ERROR com.intuit.karate - classpath:pet/generalTestCase.feature:19
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 602, url: https://petstore.swagger.io/pet, response: 
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+classpath:pet/generalTestCase.feature:19
+09:08:35.662 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:pet/generalTestCase.feature
+09:09:06.384 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:09:06.396 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1723644546393
+09:09:08.707 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:08.792 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:08.807 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:08.825 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+09:09:10.923 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:10.923 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:10.923 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:10.923 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 135
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 > Accept-Encoding: gzip,deflate
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:11.492 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 567
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:11.492 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 567
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:11.492 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 567
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:11.492 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 567
+1 < 200
+1 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"category":{"id":2,"name":"Dog"},"name":"Chaos","photoUrls":["string"],"tags":[{"id":5,"name":"Chaos"}],"status":"available"}
+
+09:09:11.499 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+2 > POST https://petstore.swagger.io/v2/pet
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 41
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+{"id":123,"name":"Bilbo","status":"sold"}
+
+09:09:11.503 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+2 > POST https://petstore.swagger.io/v2/pet
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 41
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+{"id":123,"name":"Bilbo","status":"sold"}
+
+09:09:11.517 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://petstore.swagger.io/v2/pet/123
+2 > Host: petstore.swagger.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 > Accept-Encoding: gzip,deflate
+
+
+09:09:11.748 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 248
+2 < 200
+2 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"}
+
+09:09:11.748 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 245
+2 < 200
+2 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"}
+
+09:09:11.753 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+3 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+3 > Host: petstore.swagger.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+3 > Accept-Encoding: gzip,deflate
+
+
+09:09:11.758 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 241
+2 < 200
+2 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"id":123,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"}
+
+09:09:12.000 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 247
+3 < 200
+3 < Date: Wed, 14 Aug 2024 14:09:12 GMT
+3 < Content-Type: application/json
+3 < Transfer-Encoding: chunked
+3 < Connection: keep-alive
+3 < Access-Control-Allow-Origin: *
+3 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+3 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+3 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372036854761580,"category":{"id":0,"name":"cat"},"name":"Kuzia","photoUrls":[],"tags":[],"status":"sold"},{"id":778,"category":{"id":1,"name":"Cold"},"name":"Singing Cat","photoUrls":["https://pbs.twimg.com/profile_images/948294484596375552/RyGNqDEM_400x400.jpg"],"tags":[{"id":600,"name":"Synapse"}],"status":"sold"},{"id":275,"category":{"id":8,"name":"Ежи changed"},"name":"Курва changed","photoUrls":["https://some-url.com/changed"],"tags":[{"id":3,"name":"Колючие changed"}],"status":"sold"},{"id":433,"name":"Bilbo","photoUrls":[],"tags":[],"status":"sold"},{"id":9223372036854761993,"photoUrls":[],"tags":[],"status":"sold"},{"id":9223372036854762309,"photoUrls":[],"tags":[],"status":"sold"},{"id":1,"category":{"id":1,"name":"cat"},"name":"dog","photoUrls":[],"tags":[],"status":"sold"}]
+
+09:09:13.443 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:pet/generalTestCase.feature
